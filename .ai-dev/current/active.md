@@ -68,7 +68,7 @@ Implement the first fixed-image ONNX Runtime CPU benchmark loop for InferBench-M
 
 ## WIP Commits
 
-- Pending first commit after self-test.
+- 311558d FEATURE-0001: add fixed image ORT CPU benchmark
 
 ## Open Questions / Risks
 
@@ -78,7 +78,7 @@ Implement the first fixed-image ONNX Runtime CPU benchmark loop for InferBench-M
 
 ## Next Step
 
-Commit the initialized project repository, create a public GitHub repository, and push `main`.
+Create a public GitHub repository and push `main`.
 
 ## User Acceptance
 
