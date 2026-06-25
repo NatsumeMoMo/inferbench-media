@@ -1,0 +1,28 @@
+schema_version: "0.1"
+
+experiment:
+  name: yolo-ort-cpu-image
+  iterations: 1
+
+target:
+  name: yolox-tiny-416-fp32
+  task: object_detection
+  model_path: ../../models/yolox_tiny_416_fp32.onnx
+  runtime:
+    name: onnxruntime
+    provider: CPUExecutionProvider
+
+preprocess:
+  input_shape: [1, 3, 416, 416]
+  color: RGB
+  resize: letterbox
+  padding_value: 114
+
+workload:
+  input:
+    type: image_file
+    path: ../../data/smoke/vision/synthetic/checkerboard_511x257.png
+
+validation:
+  mode: output_structure
+

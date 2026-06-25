@@ -1,0 +1,4 @@
+{"type":"task_started","id":"FEATURE-0001","task_type":"FEATURE","title":"Initialize project skeleton","time":"2026-06-25T20:00:00+09:00","base_commit":"abc0000"}
+{"type":"change_committed","task_id":"FEATURE-0001","commit":"abc1234","files":["CMakeLists.txt","src/main.cpp"],"summary":"Add initial CLI skeleton"}
+{"type":"task_waiting_user_acceptance","task_id":"FEATURE-0001","time":"2026-06-25T21:00:00+09:00"}
+{"type":"task_accepted","task_id":"FEATURE-0001","time":"2026-06-25T21:10:00+09:00","final_commit":"def5678"}

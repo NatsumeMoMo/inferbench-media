@@ -1,0 +1,21 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# Local environments
+.venv/
+venv/
+
+# Generated benchmark results
+results/
+
+# Large model artifacts
+models/
+*.onnx
+*.pth
+*.engine
+*.bin
+
