@@ -2,7 +2,7 @@
 
 Task ID: FEATURE-0001
 Task Type: FEATURE
-Status: ACTIVE
+Status: AWAITING_USER_ACCEPTANCE
 Branch: main
 Started At: 2026-06-25T20:42:26+08:00
 Base Commit: Atlas eac4238
@@ -69,6 +69,7 @@ Implement the first fixed-image ONNX Runtime CPU benchmark loop for InferBench-M
 ## WIP Commits
 
 - 311558d FEATURE-0001: add fixed image ORT CPU benchmark
+- 242d693 FEATURE-0001: record benchmark task state
 
 ## Open Questions / Risks
 
@@ -78,7 +79,7 @@ Implement the first fixed-image ONNX Runtime CPU benchmark loop for InferBench-M
 
 ## Next Step
 
-Create a public GitHub repository and push `main`.
+Await user review and explicit acceptance. If accepted, migrate this task to `.ai-dev/implemented/` in a follow-up memory update.
 
 ## User Acceptance
 
